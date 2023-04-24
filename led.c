@@ -4,7 +4,7 @@
 #include <linux/fs.h>
 #include <linux/slab.h>
 #include <linux/uaccess.h>
-#include <linux/io.h>
+#include <asm/io.h>
 
 #define LED_MAJOR       200
 #define LED_NAME        "led"

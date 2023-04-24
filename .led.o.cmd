@@ -501,9 +501,6 @@ deps_/home/tmh/linux/IMX6ULL/Linux_Drivers/2_led/led.o := \
   include/linux/uaccess.h \
   arch/arm/include/asm/uaccess.h \
     $(wildcard include/config/have/efficient/unaligned/access.h) \
-  include/linux/io.h \
-    $(wildcard include/config/have/arch/huge/vmap.h) \
-    $(wildcard include/config/has/ioport/map.h) \
   arch/arm/include/asm/io.h \
     $(wildcard include/config/pci.h) \
     $(wildcard include/config/need/mach/io/h.h) \
@@ -519,6 +516,7 @@ deps_/home/tmh/linux/IMX6ULL/Linux_Drivers/2_led/led.o := \
     $(wildcard include/config/xen/pvh.h) \
   include/asm-generic/io.h \
     $(wildcard include/config/generic/iomap.h) \
+    $(wildcard include/config/has/ioport/map.h) \
   include/linux/vmalloc.h \
 
 /home/tmh/linux/IMX6ULL/Linux_Drivers/2_led/led.o: $(deps_/home/tmh/linux/IMX6ULL/Linux_Drivers/2_led/led.o)
